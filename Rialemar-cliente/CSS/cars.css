@@ -1,0 +1,39 @@
+#big_block{
+	width: 100%;  
+    padding-top: 12%;
+}
+.blocks{
+	width: 25%; 
+	height: 400px; 
+	display: inline-block; 
+	border-radius: 5px; 
+	background-color: rgb(70, 70, 70);
+    color: #fff !important;
+	margin-left: 70px; 
+	margin-right: 30px; 
+    margin-bottom: 2%;
+}
+.car_block{
+	width: 90%; 
+	height: 40%; 
+	margin: 10px auto;
+}
+.pic_car{
+	width: 100%; 
+	height: 100%;
+}
+.info_block{
+	width: 100%; 
+	height: 55%;
+}
+.info_table{
+	margin: 0 auto;
+}
+.info_table button{
+	border-radius: 5px;
+	border-color: rgb(36, 172, 242);
+	background-color: rgb(51, 51, 51);
+	color: rgb(36, 172, 242);
+	height: 30px;
+	width: 70px;
+}

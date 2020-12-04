@@ -1,0 +1,50 @@
+.cabecera{
+	width: 100%;
+}
+#titulo{
+	display: block;
+	text-align: center;
+	font-size: 2em;
+}
+.ajustes{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.ajustes .opcion{
+	display: block;
+	margin: 20px auto;
+	width: 80%;
+	height: 40%;
+}
+.opcion p{
+	display: block;
+	width: 100%;
+	height: 20%;
+	transition-property: color;
+	transition-duration: 1.2s;
+	transition-timing-function: ease-out;
+}
+.opcion:hover{
+	background-color: rgb(166, 166, 166);
+	color: white;
+}
+.operacion{
+	display: none;
+}
+.activo{
+	width: 100%;
+	height: 79%;
+	display: block;
+}
+#primer_iframe{
+	width: 100%;
+	height: 1000px;
+}
+#segundo_iframe{
+	width: 100%;
+	height: 150px;
+}
+iframe:hover{
+	background-color: white;
+}
